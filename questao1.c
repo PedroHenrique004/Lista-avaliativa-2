@@ -9,10 +9,11 @@ int main(){
 
     }
 
-     for (int i = 0; i <= num; i++){
+     for (int i = 0; i <= num - 1; i++){
         printf("%d ", valores[i]);
   
     }
+    printf ("%d", valores[num]);
 
     printf("\n");
     num--;
@@ -25,10 +26,12 @@ int main(){
                 valores[i] = valores[i] + valores[i + 1];
             }
 
-        for (int i = 0; i <= num; i++){
+        for (int i = 0; i <= num - 1; i++){
                 printf("%d ", valores[i]);
   
             }
+
+        printf ("%d", valores[num]);
 
         printf("\n");
         num--;
